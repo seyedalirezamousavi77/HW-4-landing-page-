@@ -18,6 +18,10 @@ li{
 .mx-6{
     margin:  4rem 7rem 2rem 4rem !important;
 }
+.mt-6{
+    margin-top: 4rem !important;
+}
+}
 .ml-6{
     margin-left: 4rem !important;
 }
@@ -99,7 +103,44 @@ li{
     color: #111;
 }
 .about-section p{
-    font-size: .9rem;
+    font-size: .9rem; 
     color: #666;
     margin-top: 1rem;
+}
+.learn-section{
+    margin-top: 10rem;
+    padding-bottom: 7rem;
+    border-radius: 50rem/10rem;
+    /* border-bottom-left-radius: 10rem/10rem ;
+    border-bottom-right-radius: 10rem/10rem ; */
+    background: linear-gradient(0deg, rgba(215,215,215,1) 0%, rgba(251,251,255,1) 75%, rgba(255,255,255,1) 100%);
+}
+.learn-section h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #222;
+}
+.learn-section .learning span{
+    font-size: 1.5rem;
+}
+.learn-section .learning p{
+    color: #777;
+}
+.learn-section .learning-more button{
+    padding: .5rem 1.5rem;
+    background-color: #442b9a;
+    border: .1rem solid #442b9a;
+    color: #fff;
+    border-radius: .2rem;
+}
+.learn-section .learning-more a{
+    position: relative;
+    color: #442b9a;
+}
+.learn-section .learning-more span{
+    position: absolute;
+    font-size: 1.5rem;
+    border: .05rem solid #442b9a;
+    border-radius: 50%;
+    margin: .55rem 0 0 .5rem;
 }
