@@ -27,7 +27,7 @@
 
 .icon-biohazard:before {
   content: "\e900";
-  color: #fff;
+  color: #442b9a;
 }
 .icon-bird:before {
   content: "\e901";
@@ -47,10 +47,11 @@
 }
 .icon-playSign:before {
   content: "\e905";
+  color: #442b9a;
 }
 .icon-send-email:before {
   content: "\e906";
-  color: #fff;
+  color: #442b9a;
 }
 .icon-tick:before {
   content: "\e907";
