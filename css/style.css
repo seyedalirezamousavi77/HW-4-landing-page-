@@ -157,3 +157,45 @@ li{
     color: #653cec;
     font-size: .8rem;
 }
+.story-section .row{
+    margin-top: 5rem;
+}
+.story-section h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+.story-section span{
+    font-size: 1.5rem;
+}
+.story-section p{
+    font-size: .9rem;
+    color: #222;
+}
+.story-section a{
+    color: #222;
+    text-decoration: underline;
+}
+.text-story span{
+    font-size: .9rem;
+    color: #222;
+    font-weight: 700;
+}
+.recent-section h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+.recent-section p{
+    font-size: .9rem;
+    color: #444;
+}
+.recent-section a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #222;
+}
+.recent-section .active{
+    font-weight: 500;
+    color: #442b9a;
+}
