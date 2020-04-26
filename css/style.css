@@ -199,3 +199,37 @@ li{
     font-weight: 500;
     color: #442b9a;
 }
+.form-section{
+    color: white;
+    border-radius: .6rem;
+    background-color: #442b9a;
+}
+.form-section .img-top-form img{
+    transform: rotate(180deg);
+}
+.form-section .input-email{
+    background-color: transparent;
+    border-radius: .7rem;
+    border: .1rem solid rgba(251,251,251,.6);
+}
+.form-section .input-email input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+.form-section .input-email input::placeholder{
+    color: rgba(251,251,251,.6);
+    font-size: 1.1rem;
+}
+.form-section .input-email  span{
+    font-size: 2.2rem;
+    margin: 0.2rem 0rem;
+    padding: .8rem 0;
+    padding-left: .8rem;
+    border-left: .1rem solid rgba(251,251,251,.6);
+}
+.form-section .icon-send-email:before {
+    content: "\e906";
+    color: #fff;
+  }
