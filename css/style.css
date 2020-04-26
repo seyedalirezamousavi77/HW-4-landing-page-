@@ -12,6 +12,9 @@ a{
     text-decoration: none;
     transition: all .3s ease-in;
 }
+a:hover{
+    text-decoration: none;
+}
 li{
     list-style: none;
 }
@@ -61,8 +64,8 @@ li{
 }
 .play-icon img{
     position: absolute;
-    top: 50%;
-    right: 57%;
+    top: 35%;
+    right: 35%;
 }
 .view-section h4{
     font-size: 2.5rem;
@@ -232,4 +235,22 @@ li{
 .form-section .icon-send-email:before {
     content: "\e906";
     color: #fff;
-  }
+}
+footer{
+    padding: 3rem 0;
+    border-top: .05rem solid #ddd;
+    border-bottom: .05rem solid #ddd;
+}
+footer h3{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+footer a{
+    display: block;
+    color: #444;
+    line-height: 2;
+    font-size: 1rem;
+}
+.created-by a{
+    color: #442b9a;
+}
