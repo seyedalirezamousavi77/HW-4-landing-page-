@@ -92,13 +92,12 @@ li{
     border: .1rem solid #442b9a;
     border-radius: .4rem;
 }
-.about-section .col-lg-3:nth-child(2) span{
+.about-section .col-lg-3:nth-child(2) span.icon-biohazard{
     background-color: #442b9a;
 }
-.about-section .icon-biohazard:before {
-    content: "\e900";
+ .about-section .icon-biohazard:before {
     color: white;
-  }
+  } 
 .about-section h4{
     margin-top: 2rem;
     font-size: 1.2rem;
@@ -253,4 +252,11 @@ footer a{
 }
 .created-by a{
     color: #442b9a;
+}
+.alert {
+  padding: 15px;
+  border: 1px solid #d6e9c6;
+  border-radius: 4px;
+  color: #3c763d;
+  background-color: #dff0d8;
 }
